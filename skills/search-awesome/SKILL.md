@@ -1,21 +1,29 @@
 ---
 name: search-awesome
-description: Skill for searching and managing awesome lists, repositories, and related resources. Use when the user wants to search GitHub awesome lists, discover repositories, or manage curated lists.
-version: 0.1.0
+description: 專門搜尋、探索與整理 GitHub Awesome Lists 的技能。當使用者明確想找特定主題的優質資源清單、工具彙整、精選儲存庫時使用。
+version: 0.2.1
 ---
 
 # Search Awesome Skill
 
-This skill helps with searching, discovering, and working with awesome lists and GitHub repositories.
+這個技能專門幫助你快速發現 GitHub 上各領域的 Awesome 清單與高品質資源。
 
-## When to use
-- User asks to search for awesome repositories
-- Needs to find curated lists on specific topics
-- Managing or updating awesome lists
-- GitHub repository discovery
+## 何時使用
+- 想找特定領域的「最佳資源包、工具清單、教學系列」時
+- 需要快速了解陌生領域的生態系
+- **不適合使用**：解答單一程式問題、寫具體程式碼、查單一官方文件
 
-## Capabilities
-- Search GitHub for awesome lists
-- Analyze repository structures
-- Suggest relevant awesome resources
-- Help curate and update lists
+## 主要能力
+- 智能推薦 Star 數高且近期有維護的 Awesome 清單
+- 分析清單特色並提供比較
+- 若找不到合適的 Awesome List，自動轉為推薦該領域最具代表性的核心儲存庫
+
+## 使用範例
+- 「我想看目前最推薦的 AI Agent 資源清單"
+- 「有沒有 2026 年前端開發必備的 Awesome List？"
+- 「幫我找 Rust 活躍的教學與工具清單"
+
+## 輸出規範
+- 回覆時請提供：清單名稱、GitHub 連結、核心特色
+- 若清單已久未更新（例如超過一年），需主動提醒使用者注意時效性
+- 加分項：可簡要提及熱門工具的活躍度或 Star 數規模，幫助判斷穩定性
