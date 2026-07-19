@@ -2,11 +2,10 @@
   "name": "my-plugin",
   "description": "My custom tools",
   "version": "0.1.0",
-  "author": {
-    "name": "SerenaYuYu"
-  },
+  "author": { "name": "SerenaYuYu" },
   "skills": [
-    "./skills/example-skill"
+    "./skills/example-skill",
+    "./skills/search-awesome"
   ],
   "agents": []
 }
