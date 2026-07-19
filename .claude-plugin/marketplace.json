@@ -1,13 +1,13 @@
 {
-        "name": "my-marketplace",
-        "owner": {
-                    "name": "SerenaYuYu"
-        },
-        "plugins": [
-                    {
-                                    "name": "my-plugin",
-                                    "source": "./",
-                                    "description": "My custom tools"
-                    }
-        ]
+  "name": "my-marketplace",
+  "owner": {
+    "name": "SerenaYuYu"
+  },
+  "plugins": [
+    {
+      "name": "my-plugin",
+      "source": "./",
+      "description": "My custom tools"
+    }
+  ]
 }
