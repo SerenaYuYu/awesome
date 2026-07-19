@@ -1,0 +1,13 @@
+{
+    "name": "my-marketplace",
+    "owner": {
+          "name": "SerenaYuYu"
+    },
+    "plugins": [
+          {
+                  "name": "my-plugin",
+                  "source": "./",
+                  "description": ""
+          }
+    ]
+}
